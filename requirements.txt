@@ -1,0 +1,7 @@
+
+tensorflow==2.21.0
+streamlit>=1.30
+pydicom
+opencv-python-headless
+Pillow
+numpy

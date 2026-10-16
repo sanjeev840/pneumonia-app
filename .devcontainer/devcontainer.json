@@ -1,0 +1,9 @@
+{
+  "name": "pneumonia-app",
+  "build": { "dockerfile": "../Dockerfile" },
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": { "label": "Streamlit", "onAutoForward": "openPreview" }
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
