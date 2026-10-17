@@ -1,6 +1,6 @@
 
-tensorflow==2.21.0
-streamlit>=1.30
+streamlit
+tensorflow
 pydicom
 opencv-python-headless
 Pillow
